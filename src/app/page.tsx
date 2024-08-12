@@ -1,17 +1,17 @@
+
 import Image from "next/image";
 import Appbar from "./components/Appbar";
-import SVG1 from "../../public/asset 0.svg"
-import SVG2 from "../../public/asset 1.svg"
+
 import ProfileSection from "./components/ProfileSection";
+import useWindowDimensions from "./hooks/useWindowDimensions";
+import SideStrings from "./components/SideStrings";
+
 export default function Home() {
+
   return (
-    <main className="relative">
+    <main >
       <Appbar />
-      <div className="absolute flex justify-between w-full top-48">
-      <Image src={SVG1} alt="svg1"/>
-      <Image  src={SVG2} alt="svg1"/>
-      
-      </div>
+      <SideStrings />
       {/* <div className="w-full px-16 min-h-screen pt-5 relative max-w-[1256px]"> */}
       <div className="">
         <ProfileSection />  
