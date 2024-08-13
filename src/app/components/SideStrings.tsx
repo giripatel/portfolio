@@ -9,8 +9,8 @@ const SideStrings = () => {
   const width = useWindowDimensions();
   return (
     <div>
-      <div className="absolute flex justify-between w-full top-48">
-        {width > 750 ? (
+      <div className="absolute flex justify-between w-full top-40">
+        {width > 768 ? (
           <div className="flex  w-full justify-between">
             <Image src={SVG1} alt="svg1" /> 
             <Image src={SVG2} alt="svg1" />

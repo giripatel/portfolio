@@ -6,7 +6,7 @@ export function FlipWordsModel() {
 
   return (
     // <div className="h-[40rem] flex justify-center items-center px-4">
-      <div className="relative mx-auto text-5xl font-bold ">
+      <div className="relative mx-auto text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold ">
         <FlipWords className="absolute bg-gradient-to-tr from-[#e17731] to-[#ed5332] text-transparent bg-clip-text" words={words} />
       </div>
     // {/* </div> */}
