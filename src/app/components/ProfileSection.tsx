@@ -13,12 +13,12 @@ const ProfileSection = () => {
   return (
     <section>
       <div className="flex w-full">
-        <div className="flex">
+        <div className="flex xl:mt-11" >
           <div className="flex relative top-10 md:top-24">
             <div className="relative w-8 -top-4 left-4 sm:left-[1.1rem] z-10">
               <Image src={SVG_PIN} alt="ball" />
             </div>
-            <div className="relative bg-[#F87216] w-[2px] min-h-screen">
+            <div className="relative bg-[#F87216] w-[2px] h-80 md:h-[32rem] lg:h-[40rem ] xl:min-h-screen">
               <div className="absolute inset-0 bg-[#F87216] blur-sm "></div>
               <div className="bg-[#F87216] h-full relative"></div>
             </div>
