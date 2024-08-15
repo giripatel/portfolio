@@ -6,7 +6,7 @@ import Image from "next/image";
 const Intro = () => {
   const intro = getIntroduction();
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full">
       <div className="sm:w-full md:w-full flex justify-center">
         <div className="lg:w-[70%] xl:w-[49%] md:w-[33rem] sm:w-[28rem] md:text-lg sm:pt-5 w-fit ps-14 sm:p-0 md:ps-9 lg:pt-10 xl:pt-0  pe-4 text-gray-200 font-mono text-sm">
           {intro}{" "} 

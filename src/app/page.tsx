@@ -3,6 +3,10 @@ import ProfileSection from "./components/ProfileSection";
 import SideStrings from "./components/SideStrings";
 import Intro from "./components/Intro";
 import ExperienceModel from "./components/ExperienceModel";
+import Experience from "./components/Experience";
+import Project from "./components/Project";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 
 export default function Home() {
@@ -15,9 +19,12 @@ export default function Home() {
         <div className="max-w-[1200px] w-full justify-center">
           <ProfileSection />
           <Intro />
-          <ExperienceModel />
+          <Skills />
+          <Experience />
+          <Project />
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
