@@ -6,7 +6,7 @@ const Appbar = () => {
 
   const width = useWindowDimensions();
   return (
-    <div className="bg-zinc-900 flex justify-center items-center gap-x-9 font-semibold w-full h-20">
+    <div className="bg-neutral-950 flex justify-center items-center gap-x-9 font-semibold w-full h-20">
       <div className="flex gap-x-9 w-96 rounded-xl p-5 justify-center">
         <div className="text-slate-50 hover:cursor-pointer">/</div>
         <div className="text-slate-50 hover:cursor-pointer">work</div>

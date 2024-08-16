@@ -3,7 +3,7 @@ export const getExperience = () => {
     {
       country: "India",
       duration: {
-        form: "January 2023",
+        from: "January 2023",
         to: "Present",
       },
       company: "ENH I Secure",
@@ -29,7 +29,7 @@ export const getExperience = () => {
     {
       country: "India",
       duration: {
-        form: "Nov 2023",
+        from: "November 2023",
         to: "Present",
       },
       company: "Open Source",
