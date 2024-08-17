@@ -38,7 +38,7 @@ const ExperienceModel = ({exp}: {exp : any}) => {
               />
             </svg>
             <div className="w-96 md:w-[36rem] flex-wrap flex">
-            {exp.tech.map((skill: any, index: any) => <div className="text-teal-500 text-nowrap grid-cols-1">{skill}{exp.tech.length -1 !== index? ", ": ""}</div>)}
+            {exp.tech.map((skill: any, index: any) => <div key={index} className="text-teal-500 text-nowrap grid-cols-1">{skill}{exp.tech.length -1 !== index? ", ": ""}</div>)}
           </div>
           </div>
         </div>

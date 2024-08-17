@@ -2,9 +2,9 @@ import React from "react";
 
 const ProjectModel = ({project} : {project: any}) => {
   return (
-    <div className="relative lg:w-[30rem] min-w-[22rem] h-60 col-span-1 rounded-md group">
+    <div className="relative lg:w-[30rem] w-[21rem] h-64 col-span-1 rounded-md group">
       <div className="absolute inset-0 bg-gradient-to-tr from-red-500  to-orange-600 blur rounded-sm opacity-60 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
-      <div className="relative lg:w-[30rem] min-w-[22rem] h-60 col-span-1 bg-zinc-900 rounded-md border-[1px] border-red-300 font-mono pb-4">
+      <div className="relative lg:w-[30rem] w-[21rem] h-64 col-span-1 bg-zinc-900 rounded-md border-[1px] border-red-300 font-mono pb-4">
         <div className="w-full flex justify-between p-1">
           <div className="text-gray-300 font-semibold p-2">Giridhar</div>
           <div className="rounded-full w-12  p-3 cursor-pointer ">
@@ -30,12 +30,12 @@ const ProjectModel = ({project} : {project: any}) => {
           <div className="text-xl pt-2 text-violet-200">{project.tagLine}</div>
           <div className="mt-5 flex">
             <div className="me-2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
               </svg>
             </div>
             <div className="w-96 md:w-[36rem] flex-wrap flex">
-            {project.tech.map((skill: any, index: any) => <div className="text-emerald-300 text-nowrap grid-cols-1">{skill}{project.tech.length -1 !== index? ", ": ""}</div>)}
+            {project.tech.map((skill: any, index: any) => <div key={index} className="text-emerald-300 text-nowrap grid-cols-1">{skill}{project.tech.length -1 !== index? ", ": ""}</div>)}
           </div>
             
           </div>

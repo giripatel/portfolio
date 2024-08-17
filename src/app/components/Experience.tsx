@@ -13,8 +13,8 @@ const Experience = () => {
       </div>
       <div className="w-full flex justify-center mt-5">
         <div className="flex justify-center flex-col gap-y-16">
-          {experiences?.map((exp: any) => (
-            <ExperienceModel exp={exp} />
+          {experiences?.map((exp: any, index: number) => (
+            <div key={index}><ExperienceModel exp={exp} /></div>
           ))}
         </div>
       </div>

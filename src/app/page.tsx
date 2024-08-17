@@ -14,9 +14,8 @@ export default function Home() {
     <main>
       <Appbar />
       <SideStrings />
-      {/* <div className="w-full px-16 min-h-screen pt-5 relative max-w-[1256px]"> */}
       <div className="w-ful flex justify-center">
-        <div className="max-w-[1200px] w-full justify-center">
+        <div className="max-w-[1200px]">
           <ProfileSection />
           <Intro />
           <Skills />
