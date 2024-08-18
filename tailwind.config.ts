@@ -33,7 +33,10 @@ module.exports = {
             transform: "rotate(-1deg)"
           },
         }
-      }
+      },
+      variants: {
+        fill: ['hover', 'focus'],
+      },
     },
   },
   plugins: [addVariablesForColors],

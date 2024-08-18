@@ -1,14 +1,15 @@
+"use client"
 import React from "react";
-
+import { motion } from 'framer-motion'
 const ExperienceModel = ({exp}: {exp : any}) => {
   
   return (
     <>
-    <div className="relative w-80 sm:w-[38rem] xl:w-[55rem] lg:h-fit group">
-    <div
+    <motion.div whileTap={{scale: 0.8}} whileHover={{scale:1.1}} className="relative w-80 sm:w-[38rem] xl:w-[55rem] lg:h-fit group">
+    <motion.div
     className="absolute -inset-1 rounded-lg bg-gradient-to-r from-yellow-600 via-orange-600 to-red-600 opacity-50 blur group-hover:opacity-75 transition duration-200 animate-tilt"
-  ></div>
-    <div className="rounded-lg  bg-zinc-900  shadow-2xl  backdrop-blur-sm px-3  border border-orange-600 font-mono">
+  ></motion.div>
+    <motion.div whileTap={{scale: 0.8}} className="rounded-lg  bg-zinc-900  shadow-2xl  backdrop-blur-sm px-3  border border-orange-600 font-mono">
         <div className="text-zinc-300 p-3">
           <div className="flex md:justify-end text-sm lg:text-base py-3">
             <p className="text-yellow-600 ">
@@ -42,8 +43,8 @@ const ExperienceModel = ({exp}: {exp : any}) => {
           </div>
           </div>
         </div>
-      </div>
-  </div>
+      </motion.div>
+  </motion.div>
     </>
   );
 };
