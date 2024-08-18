@@ -36,7 +36,7 @@ export const getExperience = () => {
       role: "Full Stack Developer",
       summary: [
         "Added real-time features to an open-source application using WebSocket and React, improving user interaction by enabling live data updates.",
-        "nhanced the UI of an open-source server status application, leading to better user experience and increased community adoption.",
+        "Enhanced the UI of an open-source server status application, leading to better user experience and increased community adoption.",
         "Participated in multiple community talks, sharing insights and contributing to discussions on open-source development, fostering collaboration and knowledge exchange.",
       ],
       tech: [
