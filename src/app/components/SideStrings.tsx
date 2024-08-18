@@ -6,7 +6,7 @@ import SVG2 from "../../../public/asset 1.svg";
 import Image from "next/image";
 
 const SideStrings = () => {
-  const width = useWindowDimensions();
+  const width = useWindowDimensions() || 0;
   return (
     <div>
       <div className="absolute flex justify-between w-full top-40">
