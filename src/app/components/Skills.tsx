@@ -9,7 +9,7 @@ const Skills = () => {
     <section id="skills">
       <div className="text-white text-2xl font-semibold w-full flex justify-center my-3 pb-3"><span>Skills </span> : <span> Ability</span></div>
       <div className="flex justify-center">
-        <div className="flex flex-col items-center gap-y-5">
+        <div className="flex flex-col items-center gap-y-5 font-semibold">
           <div className="flex gap-x-4 md:gap-x-6">
             {skills.languages.map((skill,index) => {
               
@@ -48,7 +48,7 @@ const Skills = () => {
             })}
           </div>
           <div>
-            <SkillsModel skill={"More"} />
+            <SkillsModel skill={"& More"} />
           </div>
         </div>
       </div>
