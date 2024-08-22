@@ -1,6 +1,4 @@
 import Link from "next/link";
-import dynamic from "next/dynamic";
-import ResumeButtonSkeliton from "./ResumeButtonSkeliton";
 import ResumeButton from "./ResumeButton";
 
 const Appbar = () => {
