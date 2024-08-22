@@ -1,12 +1,12 @@
+import dynamic from "next/dynamic";
 import Appbar from "./components/Appbar";
-import ProfileSection from "./components/ProfileSection";
-import SideStrings from "./components/SideStrings";
 import Intro from "./components/Intro";
-import ExperienceModel from "./components/ExperienceModel";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+const ProfileSection = dynamic(() => import("./components/ProfileSection")); 
+const SideStrings = dynamic(() => import("./components/SideStrings")); 
 
 
 export default function Home() {
