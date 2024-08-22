@@ -8,7 +8,7 @@ import { FlipWordsModel } from "./FilpWordsModel";
 import { motion, useInView } from "framer-motion";
 
 const ProfileSection = () => {
-  const width = useWindowDimensions() || 0;
+  const width = useWindowDimensions();
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -48,7 +48,7 @@ const ProfileSection = () => {
                 <FlipWordsModel />
               </div>
             </motion.div>
-            {width > 640 ? (
+            {width && width > 640 ? (
               <motion.div
                 ref={ref}
                 style={{
@@ -70,6 +70,7 @@ const ProfileSection = () => {
             ) : (
               ""
             )}
+
           </div>
         </div>
       </div>
