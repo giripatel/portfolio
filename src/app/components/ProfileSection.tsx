@@ -59,7 +59,7 @@ const ProfileSection = () => {
                 className="sm:w-[16rem] sm:mt-28 sm:ms-10 md:w-80 xl:w-96 z-10 xl:pe-0 sm:pe-8 rounded-sm"
               >
                 <Image 
-                  src={"https://cloud.appwrite.io/v1/storage/buckets/66ba286300378c0dc13e/files/66ba288d0014f948c1e4/view?project=656f77824f9395e906e9&mode=admin"}
+                  src={"https://fra.cloud.appwrite.io/v1/storage/buckets/66ba286300378c0dc13e/files/68c3170e0032b7c3b972/view?project=656f77824f9395e906e9&mode=admin"}
                   alt="profile"
                   layout="responsive"
                   className="rounded-md "
